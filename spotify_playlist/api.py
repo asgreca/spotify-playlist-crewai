@@ -11,7 +11,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from playlist_crew import PlaylistCrew
 from fastapi import FastAPI, File, UploadFile
 from fastapi.responses import JSONResponse
-#teste
+
 load_dotenv()
 
 app = FastAPI()
